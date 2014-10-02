@@ -22,9 +22,14 @@ PODS:
     - AFNetworking/NSURLSession
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.4.1)
+  - AFNetworking (from `https://github.com/checkthis/AFNetworking.git`, branch `fix-kvo-crash`)
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :branch: fix-kvo-crash
+    :git: https://github.com/checkthis/AFNetworking.git
 
 SPEC CHECKSUMS:
-  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  AFNetworking: 72af5ca61de0fac5773557f14decb1d635700a87
 
 COCOAPODS: 0.33.1
